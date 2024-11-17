@@ -1,0 +1,9 @@
+.loginDiv {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .loginDiv {
+        flex-direction: column;
+    }
+  }

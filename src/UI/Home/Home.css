@@ -1,0 +1,32 @@
+.a {
+    width: 98%;
+    height: 200vh;
+  
+}
+
+.home {
+    display: flex;
+    margin-left: 336px;
+}
+
+
+.allFoods {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.foodSectionHeaders {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.foodSectionHeaders p {
+    color: #503E9D;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dirnkSection {
+    margin-top: 48px;
+}
